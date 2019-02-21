@@ -1,0 +1,188 @@
+body {
+	background-image: url('bmw.jpg');   
+	background-size: 100%; 
+}
+
+.caption-img {
+  	background-color: rgba(0,0,0,.35);
+	padding: 5px 10px 5px;
+	//color: #fff;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+img {
+	box-shadow: -19px 0 22px -19px #fff, 19px 0 22px -19px #fff;
+	margin-left: 80px;
+}
+
+.center-img {
+	text-align: center;
+	padding-bottom: -15px;
+}
+
+h1 {
+	text-align: center;
+}
+
+body p{
+	color: white;    
+}
+
+.zad1{
+    font-size: 26px;
+    color: #2ed4a4;
+}
+
+.zad2{
+	color: #8D6E63;
+	font-size: 22px;
+}
+
+.text2{
+	font-size: 18px;
+	font-style: italic;
+	text-align: right;
+	margin-right: 20%;
+	margin-bottom: -25px;
+}
+
+.text3{
+	color: white;
+	font-size: 15px;
+	//padding: 34px;
+	text-align: center;
+}
+
+.text4{
+	color: #AEEA00;
+	font-size: 18px;
+	padding: 60px;
+}
+
+.text5{
+	color: #e7baba;
+	font-size: 13px;
+	padding: -45px;
+}
+
+.text6{
+	color: #26C6DA;
+	font-size: 11px;
+}
+.ctux{
+	margin: 0 auto 15px;
+	font-size: 15px;
+}
+
+.li {
+	color: white;
+}
+
+.ulli ul {
+	width: 21%;
+	float: 50%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+.ulli li {
+	float: left;
+}
+
+.ulli li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.ulli li a:hover {
+	background-color: #111111;
+}
+
+blockquote {  
+	border-bottom: 3px dashed #bababa;
+	border-top: 3px dashed #bababa;
+	color: #94c4c4;
+	font-family: Georgia,serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 1.45;
+	padding: 10px 15px;
+	position: relative;
+	text-align: center;
+	width: 450px;
+}
+
+table.TableTest {
+	width: 100%;
+	background-color: #c0c0c0;
+	border-collapse: collapse;
+	border-color: #ffcc00;
+}
+
+table.TableTest td, table.TableTest th {
+	border-color: #ffcc00;
+	border-style: dashed;
+	padding: 3px;
+	//font-weight: bold;
+	font-style: italic;
+}
+
+table.TableTest thead {
+	background-color: #80CBC4;
+	font-size: 19px;
+}
+
+#linkurl a:link {
+	font-size: 24px;
+	color: #497DDD; 
+	text-decoration: none;
+}
+#linkurl a:visited {
+	color: #EF7D55;
+}
+#linkurl a:hover {
+	color: #1DE9B6; 
+	border-bottom: .07em solid;
+}
+#linkurl a:active {
+	color: #81C784; 
+	border-bottom: 1px dashed;
+}
+
+#button {
+    padding: 10px 20px;
+    color: #fff;
+    background: #4ae34d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .2s ease;
+	text-decoration: none;
+	
+}
+
+#button:hover {
+    background: #3b5c6d;
+	text-decoration: underline;
+}
+
+a.knopulia {
+	color: #fff;
+	text-decoration: none;
+	background: rgb(212,75,56);
+	padding: .7em 1.5em;
+	outline: none; 
+} 
+a.knopulia:hover { 
+	background: rgb(232,95,76); 
+}
+a.knopulia:active { 
+	background: rgb(152,15,0); 
+}
